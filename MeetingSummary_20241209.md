@@ -5,7 +5,8 @@ The meeting is aimed to share updates on Fluorescence/FLIM software projects, di
 ### Current Projects and Updates: 		
 - **Flute**: A Python-based FLIM analysis tool with a graphical user interface (GUI). Future plans include direct import of various file formats, wavelet filters, and advanced features for metabolic imaging.
 - **PhasorPy**: A library for phasor analysis in FLIM and spectral imaging. It supports multiple file formats and provides extensive documentation and tutorials. Future developments include implementing more functionalities and improving user interface.
-- **Napari Super-Res**: A plugin for Napari that integrates phasor analysis for spectral and lifetime data. It aims to provide a user-friendly interface for complex analyses.
+- **Napari-Phasors** : by Bruno Pannunzio, Bruno Schuty, Leonel Malacrida + Marcelo Zoccoler. It uses PhasorPy library as backend and enables [FLIM and HSI phasor analysis](https://www.napari-hub.org/plugins/napari-phasors)
+- **Napari Super-Res**: A plugin for Napari that integrates computational super resolution imaging tools. It aims to provide a user-friendly interface for MSSR, SRRF, and others.
 ### Discussions
 - **Data Formats**: The need for standardized data formats to ensure compatibility and reproducibility. The use of OME-TIFF and other formats was discussed.
 - **Reproducibility**: Emphasis on recording macros or steps taken during analysis to ensure reproducibility. Suggestions included embedding metadata and using standardized formats.
